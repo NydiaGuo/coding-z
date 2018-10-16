@@ -1,0 +1,22 @@
+{
+  "name": "coding-z",
+  "version": "1.0.0",
+  "description": "Front end coding project for Zillow Group",
+  "main": "\t",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NydiaGuo/coding-z.git"
+  },
+  "author": "Ni Guo (Nydia)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NydiaGuo/coding-z/issues"
+  },
+  "homepage": "https://github.com/NydiaGuo/coding-z#readme",
+  "devDependencies": {
+    "webpack": "^4.20.2"
+  }
+}
