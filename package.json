@@ -22,12 +22,16 @@
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.9.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "sass-loader": "^7.1.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "serve": "^10.0.2"
+    "css-loader": "^1.0.0",
+    "serve": "^10.0.2",
+    "style-loader": "^0.23.1"
   }
 }
