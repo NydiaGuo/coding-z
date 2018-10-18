@@ -5,6 +5,21 @@ module.exports = {
     mode: "production",
     output: {
         filename: "bundle.js",
-        path: path.join(__dirname, "dist")
+        path: path.resolve(__dirname, "dist")
+    },
+    module: {
+        rules: [
+            {
+                // look all the files that ends in 'js'
+                test: /.js$/,
+                exclude: /(node_modules)/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["env"]
+                    }
+                }
+            }
+        ]
     }
 }
