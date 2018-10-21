@@ -1,7 +1,20 @@
-$sun-flower: #f1c40f;
+$sun-flower: #f1870f;
 $clouds: #ecf0f1;
 
-div {
-    background-color: $sun-flower;
+
+h1 {
     color: $clouds;
+}
+
+#imageDiv{
+    height: 1000px;
+    width: auto;
+    background-color: $sun-flower;
+}
+
+#image {
+    background: url('./images/nature.jpeg') center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1000px;
 }
